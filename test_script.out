@@ -1,0 +1,36 @@
+hecking prerequisites ---
+--- Prerequisites met ---
+
+--- Running Comprehensive Configuration Tests ---
+Running test: 01_polymeric_all_lipinski... OK. Result: 536
+Running test: 02_all_entities_strict... OK. Result: 538
+Running test: 03_polymeric_any_lipinski... OK. Result: 600
+Running test: 04_all_entities_lenient... OK. Result: 607
+Running test: 05_pdb_chain_polymeric... OK. Result: 56
+Running test: 06_pdb_chain_all_entities... OK. Result: 56
+Running test: 07_chain_counting... OK. Result: 516
+Running test: 08_pdb_chain_lenient... OK. Result: 72
+Running test: 09_no_ions_polymeric... OK. Result: 537
+Running test: 10_no_ions_all_entities... OK. Result: 537
+Running test: 11_no_ions_lenient... OK. Result: 607
+Running test: 12_static_polymeric... OK. Result: 539
+Running test: 13_static_all_entities... OK. Result: 538
+Running test: 14_static_lenient... OK. Result: 608
+Running test: 15_seed_0... OK. Result: 541
+Running test: 16_seed_1... OK. Result: 538
+Running test: 17_seed_123... OK. Result: 538
+Running test: 18_ignore_unmapped_polymeric... OK. Result: 535
+Running test: 19_ignore_unmapped_all... OK. Result: 539
+Running test: 20_pdb_ignore_unmapped... OK. Result: 4132
+Running test: 21_chains_lenient... OK. Result: 586
+Running test: 22_chains_no_ions... OK. Result: 516
+Running test: 23_pdb_chains... OK. Result: 52
+Running test: 24_static_no_ions... OK. Result: 538
+Running test: 25_ignore_no_ions... OK. Result: 535
+Running test: 26_sequence_hash... OK. Result: 56
+
+==================================================================
+All tests finished.
+==================================================================
+Passed: 26
+Failed: 0
