@@ -7,7 +7,7 @@
 set -uo pipefail
 
 # --- Global Variables ---
-OUTPUT_DIR="./output"
+OUTPUT_DIR="./results"
 PASSED_TESTS=()
 FAILED_TESTS=()
 

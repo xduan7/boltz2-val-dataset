@@ -1,0 +1,26 @@
+{
+  "parameters": {
+    "seed": 123,
+    "lipinski_mode": "all",
+    "selection_mode": "random",
+    "include_ions": true,
+    "unmapped_chain_policy": "reject",
+    "entity_mode": "polymeric-only",
+    "date_range": "2023-06-01 to 2024-01-01",
+    "max_resolution": 4.5,
+    "max_residues": 1024,
+    "max_entities": 20,
+    "multimer_keep_rate": 0.9,
+    "monomer_keep_rate": 0.6
+  },
+  "counts": {
+    "final_validation_set": 538
+  },
+  "exclusions": {
+    "residue_limit_exceeded": 268,
+    "entity_limit_exceeded": 0,
+    "entity_count_unknown": 0,
+    "excluded_by_training_cluster": 6760,
+    "excluded_by_unmapped_chain": 0
+  }
+}
